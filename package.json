@@ -1,0 +1,25 @@
+{
+  "name": "nba_commisioners",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:create": "createdb nba_commisioners",
+    "db:destroy": "dropdb nba_commisioners",
+    "db:init": "psql -f schema.sql nba_commisioners",
+    "db:seed": "psql -f seed.sql nba_commisioners",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-es6-template-engine": "^2.2.3",
+    "pg-promise": "^10.9.4",
+    "slugify": "^1.4.6"
+  }
+}

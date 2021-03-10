@@ -1,0 +1,1 @@
+INSERT INTO nba_commisioners (name, slug, first_year_active) VALUES ('Maurice Podoloff', 'maurice_podoloff', 1946), ('Walter Kennedy', 'walter_kennedy', 1963), ('Larry Obrien', 'larry_obrien', 1975), ('David Stern', 'david_stern', 1984), ('Adam Silver', 'adam_silver', 2014)
